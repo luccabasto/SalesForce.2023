@@ -54,12 +54,18 @@
 
 .a-challange{
     background-color: #03588C;
-    width: 100vw;
+    width: 100%;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content:center;
     gap: 2rem;
+    text-decoration: none;
+}
+
+.challange__organ, 
+.challange__d_d_b{
+    color: var(--color-1st);
 }
 
 .banner-btn{

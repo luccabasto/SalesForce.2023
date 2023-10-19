@@ -1,5 +1,11 @@
-@import url(/src/main.css);
-@import url(/src/header.css);
+@import url(/src/styles/header.css);
+@import url(/src/styles/main.css);
+@import url(/src/styles/footer.css);
+@import url(/src/styles/partners.css);
+@import url(/src/styles/services.css);
+@import url(/src/styles/adicional-pages.css);
+
+
 
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
@@ -18,7 +24,8 @@ input,select{vertical-align:middle}
 
 :root{
 
-    --bg-img:;
+    --bg-img:   radial-gradient(ellipse at top, var(--color-1st), transparent),
+                radial-gradient(ellipse at bottom,var(--color-2st), transparent);;
     --font-1st: 'Nunito Sans', sans-serif;
     --font-2st:;
     --color-1st: #F0F2F2;
@@ -33,14 +40,21 @@ input,select{vertical-align:middle}
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    height: auto;
+    width: auto;
+    
     
 }
-
+body{
+    overflow-x: hidden;
+}
 .layout__central-content{
 
     background:  
-    radial-gradient(ellipse at top, var(--color-1st),      transparent),
-    radial-gradient(ellipse at bottom,var(--color-2st), transparent);
-    height: 100vh;
+    var(--bg-img);
+    height: 85vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }

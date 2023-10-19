@@ -15,3 +15,11 @@
 
 A class - .d-d-d = Diário de Bordo
 
+---------------------- 18/10/23
+
+OCULTAR A BARRA LATERAL - no css
+
+body{
+    overflow-x: hidden;
+}
+

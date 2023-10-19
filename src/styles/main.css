@@ -1,16 +1,14 @@
 .content__principal{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
     flex-direction: column;
     padding: 150px;
-    
 }
 
 .principal{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     width: 100vw;
     color: var(--color-3st);
     margin: 10px 10px 14px;
@@ -18,56 +16,44 @@
 
 .principal__banner{
     display: flex;
-    justify-content: left;
+    justify-self: center;
     align-items: center;
     
 }
 .banner{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: flex-start;
 }
 
 .banner-img__mascot{
     position: relative;
-    width: 650px;
-    height: 510px;
+    width: 550px;
+    left: 1rem;
+    
 }
 .principal__title{
-    font-family: var(--font-2st);
-    font-size: 3rem;
-    padding-top: 10px;
+    font-size: 4.5em;
+    text-align: center;
     color: var(--color-3st);
+    margin: 0;
+    margin-top: -5rem;
+    position: relative;
+    
 }
 .txt-span{
     color: var(--color-4st);
 }
 .banner-txt{
-   text-align: flex-start;
+    text-align: flex-start;
     font-size: 1.6em;
+    flex-wrap: wrap;
 }
 
 .banner-p{
     margin: 15px 0 0 0;
+    text-wrap: wrap;
 }
-
-.a-challange{
-    background-color: #03588C;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    gap: 2rem;
-    text-decoration: none;
-}
-
-.challange__organ, 
-.challange__d_d_b{
-    color: var(--color-1st);
-}
-
 .banner-btn{
     display: flex;
     flex-direction: row;

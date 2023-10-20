@@ -1,0 +1,165 @@
+
+
+:root{
+    --font-1st: 'Nunito Sans', sans-serif;
+    --color-1st: hsl(203, 59%, 64%);
+    --color-2st: hsl(180, 7%, 95%);
+    --color-3st: hsl(203, 80%,  25%);
+    --color-4st-txt: hsl(0, 0%, 17%);
+}
+
+@media screen and (min-width: 1120px){
+    :root{
+        --h2-font-size: 1.5rem;
+        --small-font-size: .875rem;
+    }
+}
+
+body{
+    font-family: var(--font-1st);
+    overflow-y: hidden;
+
+
+    /*background-color:
+    radial-gradient(ellipse at top, var(--color-1st),   transparent),
+    radial-gradient(ellipse at bottom,var(--color-2st), transparent); */
+
+    color: var(--color-4st-txt);
+}
+
+img.partners__img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.partners {
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-img);
+    display: grid;
+    place-items: center;
+    padding-block: 5rem;
+}
+
+.partners__title{
+    font-size: 2rem;
+}
+
+.partners__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 3.5rem;
+}
+
+.card__article{
+
+    position: relative;
+    overflow: hidden;
+}
+
+.partners__img{
+    width: 360px;
+    border-radius: 1.5rem;
+}
+
+.card__info{
+    width: 316px;
+    background-color: var(--color-1st);
+    padding: 1.5rem 2rem;
+    padding-inline: 2.5rem;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, .30);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    /*opacity: 0; */
+    transition: opacity 1s 1s;
+}
+
+.card__description{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: .25;
+    text-wrap: nowrap;
+}
+
+.card__title{
+
+    font-size: var(--h2-font-size);
+    font-weight: 500;
+    color: var(--color-4st-txt);
+    margin-bottom: .75rem;
+    margin-top: .5rem;
+}
+
+.card__button{
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    color: var(--color-4st);
+}
+
+.card__button:hover{
+    text-decoration: underline;
+}
+
+/* Realizando as animações do card */
+
+.card__article:hover .card__info{
+    animation: show-info 1s forwards;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.card__article:hover{
+    animation: remove-overflow 2s forwards;
+}
+
+.card__article:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+.card__article:not(:hover) .card__info{
+    animation: remove-data 1s forwards;
+}
+/* Card animação */
+@keyframes show-info{
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(-7rem);
+    }
+}
+
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+
+@keyframes remove-data {
+    0%{
+        transform: translateY(-7rem);
+    }
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(.5rem);
+    }
+}
+
+@keyframes show-overflow{
+    0%{
+        overflow: initial;
+        pointer-events: none;
+    }
+    50%{
+        overflow: hidden;
+    }
+}

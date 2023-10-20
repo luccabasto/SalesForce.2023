@@ -2,7 +2,7 @@
 
 [Diário_de_bordo]: 
 
-14/10/23 - 15/10/23
+                        14/10/23 - 15/10/23
  
 
 * Importar fonts: CHECK
@@ -15,11 +15,15 @@
 
 A class - .d-d-d = Diário de Bordo
 
----------------------- 18/10/23
+                        18/10/23
 
 OCULTAR A BARRA LATERAL - no css
 
 body{
     overflow-x: hidden;
 }
+
+                        20/10/23 
+
+Precisei pesquisar ideias para realizar uma apresentação de parceitos (.partners), com apenas o HTML e CSS, dentro das minhas possibilidades consegui encontrar em forma de card. 
 

@@ -45,6 +45,7 @@ img.partners__img {
 
 .partners__title{
     font-size: 2rem;
+    margin-bottom: -2rem;
 }
 
 .partners__container{
@@ -55,7 +56,6 @@ img.partners__img {
 }
 
 .card__article{
-
     position: relative;
     overflow: hidden;
 }

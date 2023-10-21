@@ -27,7 +27,7 @@ input,select{vertical-align:middle}
     --bg-img:   radial-gradient(ellipse at top, var(--color-1st), transparent),
                 radial-gradient(ellipse at bottom,var(--color-2st), transparent);
     --font-1st: 'Nunito Sans', sans-serif;
-    --font-2st:;
+
     --color-1st: #F0F2F2;
     --color-2st: #6CAFD9;
     --color-3st: #2c2c2c;
@@ -47,12 +47,13 @@ input,select{vertical-align:middle}
 }
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .layout__central-content{
 
     background:  
     var(--bg-img);
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;

@@ -27,3 +27,12 @@ body{
 
 Precisei pesquisar ideias para realizar uma apresentação de parceitos (.partners), com apenas o HTML e CSS, dentro das minhas possibilidades consegui encontrar em forma de card. 
 
+                        21/08/23 - Madrugada
+
+Fiz a monstagem da página dos RM's e melhorei o footer. 
+
+                        21/10/23 - Tarde
+                        
+
+            
+

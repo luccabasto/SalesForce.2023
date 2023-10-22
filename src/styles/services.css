@@ -1,0 +1,35 @@
+body{
+    overflow-y:visible;
+}
+
+.service-container{
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-img);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+    gap: 5rem;
+
+}
+
+.container-service__data{
+    
+    
+}
+
+.service-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service__text{
+    text-wrap: wrap;
+}
+
+.service-img{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}

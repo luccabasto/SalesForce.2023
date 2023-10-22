@@ -47,7 +47,7 @@ input,select{vertical-align:middle}
 }
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 .layout__central-content{
 

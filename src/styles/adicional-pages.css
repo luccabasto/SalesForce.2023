@@ -48,3 +48,8 @@ input,select{vertical-align:middle}
     cursor: pointer;
     transition: .3s;
 }
+
+.org__img{
+    width: 100vw;
+    background-repeat: no-repeat;
+}

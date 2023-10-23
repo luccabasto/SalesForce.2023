@@ -32,6 +32,15 @@ Precisei pesquisar ideias para realizar uma apresentação de parceitos (.partne
 Fiz a monstagem da página dos RM's e melhorei o footer. 
 
                         21/10/23 - Tarde
+
+Foi finalizado o Organograma e comecei a montar a página de serviços
+
+                        22/10/23 
+
+Página de Aprendizado finalizada e também de serviços.
+
+* Utilizei da mesma formula da página de aprendizado para fazer a página de serviços. 
+
                         
 
             

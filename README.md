@@ -41,6 +41,7 @@ Página de Aprendizado finalizada e também de serviços.
 
 * Utilizei da mesma formula da página de aprendizado para fazer a página de serviços. 
 
+* Finalização de todo o site, amanhã irei passar o pente fino. 
                         
 
             

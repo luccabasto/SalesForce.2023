@@ -2,8 +2,8 @@
 .a-challange{
     background-color: #03588C;
     width: 100vw;
-    height: 65px;
-    bottom: -4px;
+    height: 70px;
+    bottom: -110px;
     color: var(--color-1st);
     position: absolute;
 }
@@ -11,9 +11,9 @@
 .challange__team, 
 .challange__org{
     color: var(--color-1st);
-    display:inline-block;
+    display: flex;
     line-height: 28px;
-    margin: 0 15px;
+    margin: 02px 20px;
 
 }
 

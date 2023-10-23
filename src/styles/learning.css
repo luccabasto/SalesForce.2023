@@ -20,6 +20,8 @@
 .aprendizado__title{
     color: var(--color-3st);
     font-family: var(--font-1st);
+    font-size: 1.5rem;
+    padding-bottom:1rem ;
 }
 
 .aprendizado h3{

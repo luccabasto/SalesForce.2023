@@ -17,9 +17,10 @@
     flex-direction: column;
 }
 
-.services-title{
-    color: var(--color-1st);
-    font-family: var(--font-1st);
+.services-span__title{
+    font-size: 2rem;
+    font-family: var(-font-1st);
+    font-weight: 600;
 }
 
 .services-container{
@@ -52,13 +53,13 @@
     flex-direction: column;
 }
 
-.services-title .services-p{
+.services-text .services-title{
     font-size: 1.3rem;
     font-weight: 500;
     color: var(--color-1st);
 }
 
-.services-title .services-p:hover{
+.services-text .services-title:hover{
     color: var(--color-2st);
     transition: all ease 0.3s;
 }
